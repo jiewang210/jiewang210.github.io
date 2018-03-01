@@ -1,7 +1,7 @@
 .table1
 {
-	/*寬度為400px*/
-    width: 600px;
+	/*寬度*/
+	width: 600px;
     	
 	/*框線為雙黑線*/
 	border: 20px double #000000;
@@ -17,7 +17,7 @@
 .table1_tr1
 {
 	/*儲存格的背景為淡黃色*/
-    background-color: #FFCC77;
+	background-color: #FFCC77;
 }
 
 .table1_td1
