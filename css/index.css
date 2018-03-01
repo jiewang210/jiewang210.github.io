@@ -1,24 +1,28 @@
-
 .table1
 {
 	/*寬度為400px*/
     width: 600px;
-    
-	/*背景全為黑色，讓內部儲存格之間，有黑線*/
-    background-color: #000000;
-	
-	/*外框為粗黑線*/
-	border: 5px solid #000000;
+    	
+	/*框線為雙黑線*/
+	border: 20px double #000000;
 	
 	/*文字設定*/
 	font-size: large; 
 	font-weight: bold;
+	
+	/*讓table表格內的所有框線，全部都統一合併，讓框線之間不再有隙縫*/
+	border-collapse: collapse;
 }
 
 .table1_tr1
 {
-	/*讓內部儲存格的背景為淡黃色*/
+	/*儲存格的背景為淡黃色*/
     background-color: #FFCC77;
 }
 
+.table1_td1
+{
+	/*儲存格的框線為黑線*/
+	border: 2px solid #000000;
+}
 
