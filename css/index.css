@@ -1,0 +1,24 @@
+
+.table1
+{
+	/*寬度為400px*/
+    width: 600px;
+    
+	/*背景全為黑色，讓內部儲存格之間，有黑線*/
+    background-color: #000000;
+	
+	/*外框為粗黑線*/
+	border: 5px solid #000000;
+	
+	/*文字設定*/
+	font-size: large; 
+	font-weight: bold;
+}
+
+.table1_tr1
+{
+	/*讓內部儲存格的背景為淡黃色*/
+    background-color: #FFCC77;
+}
+
+
